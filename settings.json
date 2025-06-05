@@ -1,24 +1,30 @@
 {
   "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.layoutControl.enabled": false,
+  "window.commandCenter": false,
 
   "explorer.confirmDragAndDrop": false,
+  "workbench.startupEditor": "none",
 
-  "window.commandCenter": false,
-  "workbench.layoutControl.enabled": false,
   "chat.commandCenter.enabled": false,
   "editor.tabSize": 2,
   "editor.codeLens": false,
   "editor.colorDecorators": false,
   "editor.stickyScroll.enabled": false,
   "editor.minimap.enabled": false,
-  "breadcrumbs.enabled": false,
+  "editor.lightbulb.enabled": "off",
   "emmet.showExpandedAbbreviation": "never",
+  "breadcrumbs.enabled": false,
 
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": { "source.organizeImports": "always" },
   "prettier.semi": false,
+
+  "github.copilot.nextEditSuggestions.enabled": true,
+
+  "liveServer.settings.donotShowInfoMsg": true,
 
   "[python]": {
     "editor.tabSize": 4,
@@ -42,12 +48,12 @@
     "**/pnpm-lock.yaml": true,
     "**/pnpm-workspace.yaml": true,
 
+    "**/.next": true,
+    "**/next-env.d.ts": true,
+
     "**/target": true,
     "**/Cargo.lock": true,
 
-    "**/.venv": true,
-
-    "**/.next": true,
-    "**/next-env.d.ts": true
+    "**/.venv": true
   }
 }
