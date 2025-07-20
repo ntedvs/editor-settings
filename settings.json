@@ -2,9 +2,13 @@
   "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.layoutControl.enabled": false,
+  "workbench.sideBar.location": "right",
   "window.commandCenter": false,
+  "editor.fontFamily": "Consolas",
 
   "explorer.confirmDragAndDrop": false,
+  "explorer.confirmPasteNative": false,
+  "explorer.confirmDelete": false,
   "workbench.startupEditor": "none",
   "update.showReleaseNotes": false,
   "git.openRepositoryInParentFolders": "never",
@@ -12,12 +16,13 @@
   "chat.commandCenter.enabled": false,
   "editor.tabSize": 2,
   "editor.codeLens": false,
+  "breadcrumbs.enabled": false,
   "editor.colorDecorators": false,
   "editor.stickyScroll.enabled": false,
   "editor.minimap.enabled": false,
   "editor.lightbulb.enabled": "off",
-  "breadcrumbs.enabled": false,
   "emmet.showExpandedAbbreviation": "never",
+  "terminal.integrated.shellIntegration.decorationsEnabled": "never",
 
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -51,12 +56,29 @@
     "**/pnpm-workspace.yaml": true,
 
     "**/.next": true,
+    "**/next.config.ts": true,
     "**/next-env.d.ts": true,
 
+    "**/tsconfig.json": true,
+    "**/dist": true,
+
+    "**/eslint.config.mjs": true,
+
+    "**/.gitignore": true,
+    "**/README.md": true,
+
+    "**/postcss.config.mjs": true,
+    "**/prettier.config.mjs": true,
+
+    "**/vercel.json": true,
+
+    "**/drizzle.config.ts": true,
     "**/migrations": true,
 
     "**/target": true,
     "**/Cargo.lock": true,
+
+    "**/.claude": true,
 
     "**/.venv": true
   }
