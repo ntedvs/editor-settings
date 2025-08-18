@@ -29,8 +29,6 @@
   "editor.codeActionsOnSave": { "source.organizeImports": "always" },
   "prettier.semi": false,
 
-  "github.copilot.nextEditSuggestions.enabled": true,
-
   "liveServer.settings.donotShowInfoMsg": true,
 
   "[python]": {
