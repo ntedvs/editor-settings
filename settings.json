@@ -45,6 +45,16 @@
   "[snippets]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
+  "[fish]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "bmalehorn.vscode-fish"
+  },
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "[typst]": {
+    "editor.defaultFormatter": "myriad-dreamin.tinymist"
+  },
   "files.associations": {
     "*.css": "tailwindcss"
   },
