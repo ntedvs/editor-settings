@@ -4,12 +4,13 @@
   "workbench.layoutControl.enabled": false,
   "workbench.sideBar.location": "right",
   "window.commandCenter": false,
-  "editor.fontFamily": "Consolas",
 
+  "keyboard.dispatch": "keyCode",
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmPasteNative": false,
   "explorer.confirmDelete": false,
   "workbench.startupEditor": "none",
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
   "update.showReleaseNotes": false,
   "git.openRepositoryInParentFolders": "never",
 
