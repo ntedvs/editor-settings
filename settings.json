@@ -1,59 +1,56 @@
 {
+  "editor.minimap.enabled": false,
+  "editor.stickyScroll.enabled": false,
+  "editor.codeLens": false,
+  "editor.inlayHints.enabled": "off",
+  "editor.lightbulb.enabled": "off",
+  "editor.colorDecorators": false,
+
   "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.sideBar.location": "right",
-  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "workbench.startupEditor": "none",
   "workbench.layoutControl.enabled": false,
+
+  "window.zoomLevel": -0.5,
   "window.commandCenter": false,
 
-  "explorer.confirmDragAndDrop": false,
-  "explorer.confirmDelete": false,
-  "workbench.startupEditor": "none",
-  "editor.accessibilitySupport": "off",
-
-  "editor.lightbulb.enabled": "off",
-  "editor.inlayHints.enabled": "off",
-  "editor.stickyScroll.enabled": false,
-  "editor.colorDecorators": false,
-  "editor.minimap.enabled": false,
-  "editor.codeLens": false,
-  "breadcrumbs.enabled": false,
-  "emmet.showExpandedAbbreviation": "never",
-  "terminal.integrated.shellIntegration.decorationsEnabled": "never",
-
   "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": { "source.organizeImports": "always" },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": { "source.organizeImports": "always" },
   "prettier.semi": false,
 
-  "[rust]": {
-    "editor.defaultFormatter": "rust-lang.rust-analyzer"
-  },
+  "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+  "terminal.integrated.initialHint": false,
+
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+
+  "breadcrumbs.enabled": false,
+  "emmet.showExpandedAbbreviation": "never",
+  "chat.disableAIFeatures": true,
+
+  "git.openRepositoryInParentFolders": "never",
+  "update.showReleaseNotes": false,
+
   "[java]": {
-    "editor.defaultFormatter": "redhat.java"
+    "editor.defaultFormatter": "redhat.java",
   },
   "files.associations": {
-    "*.css": "tailwindcss"
+    "*.css": "tailwindcss",
   },
 
   "files.exclude": {
     "**/node_modules": true,
-    "**/pnpm-lock.yaml": true,
-    "**/pnpm-workspace.yaml": true,
-
     "**/.next": true,
-    "**/next-env.d.ts": true,
-
-    "**/target": true,
-    "**/Cargo.lock": true,
-
     "**/dist": true,
-
+    "**/_generated": true,
     "**/migrations": true,
-
+    "**/__pycache__": true,
+    "**/.expo": true,
+    "**/bun.lock": true,
+    "**/next-env.d.ts": true,
+    "**/*.class": true,
     "**/LICENSE": true,
-
-    "**/*.class": true
   },
-  "claudeCode.preferredLocation": "panel"
 }
